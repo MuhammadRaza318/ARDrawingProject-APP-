@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "debug.log",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

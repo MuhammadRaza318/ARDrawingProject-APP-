@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750D2BD32B35CC4A00A88D81 /* IMagesSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D2BD22B35CC4A00A88D81 /* IMagesSelectViewController.swift */; };
+		754134C22B5578620041645D /* FavoritedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754134C12B5578620041645D /* FavoritedViewController.swift */; };
+		754134C42B5592230041645D /* FavoritCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754134C32B5592230041645D /* FavoritCollectionViewCell.swift */; };
+		755898902B568FD00093EB69 /* UserDefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558988F2B568FD00093EB69 /* UserDefaultData.swift */; };
+		755EC51D2B60001A00CB0AB3 /* FavoriteARDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EC51C2B60001A00CB0AB3 /* FavoriteARDrawing.swift */; };
+		755EC5202B600CBE00CB0AB3 /* ARModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 755EC51E2B600CBE00CB0AB3 /* ARModel.xcdatamodeld */; };
+		756314E32B34992D0099BF10 /* LessonUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756314E22B34992D0099BF10 /* LessonUI.storyboard */; };
+		756DB13D2B3ABA8E0098627B /* LessonTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756DB13C2B3ABA8E0098627B /* LessonTabelViewController.swift */; };
+		7571C8612B4571B1004579FB /* VIEWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571C8602B4571B1004579FB /* VIEWViewController.swift */; };
+		7571C8632B459B6B004579FB /* ViewAllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571C8622B459B6B004579FB /* ViewAllCollectionViewCell.swift */; };
+		757A31192B3D530000CAD70E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A31182B3D530000CAD70E /* MyCollectionViewCell.swift */; };
+		757A311B2B3D53A100CAD70E /* ViewImageHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A311A2B3D53A100CAD70E /* ViewImageHome.swift */; };
+		757A311D2B3D542B00CAD70E /* MyCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A311C2B3D542B00CAD70E /* MyCollectionViewCell2.swift */; };
+		757A311F2B3D557800CAD70E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A311E2B3D557800CAD70E /* ImageViewController.swift */; };
+		757A31212B3D576A00CAD70E /* ImageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A31202B3D576A00CAD70E /* ImageModels.swift */; };
+		757A31232B3D57EC00CAD70E /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A31222B3D57EC00CAD70E /* ImageData.swift */; };
+		757A31252B3DA65400CAD70E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A31242B3DA65400CAD70E /* VideoViewController.swift */; };
+		757A31292B3DBD6900CAD70E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A31282B3DBD6900CAD70E /* CameraViewController.swift */; };
+		758392032B3A07D10029B8BE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758392022B3A07D10029B8BE /* CustomTableViewCell.swift */; };
 		759531CD2B2CABB700CD53CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759531CC2B2CABB700CD53CD /* AppDelegate.swift */; };
 		759531CF2B2CABB700CD53CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759531CE2B2CABB700CD53CD /* SceneDelegate.swift */; };
 		759531D12B2CABB700CD53CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759531D02B2CABB700CD53CD /* ViewController.swift */; };
@@ -16,6 +35,27 @@
 		759531E42B2CABB900CD53CD /* ARDrawingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759531E32B2CABB900CD53CD /* ARDrawingProjectTests.swift */; };
 		759531EE2B2CABB900CD53CD /* ARDrawingProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759531ED2B2CABB900CD53CD /* ARDrawingProjectUITests.swift */; };
 		759531F02B2CABB900CD53CD /* ARDrawingProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759531EF2B2CABB900CD53CD /* ARDrawingProjectUITestsLaunchTests.swift */; };
+		759531FD2B2CAC8100CD53CD /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759531FC2B2CAC8100CD53CD /* DashBoard.storyboard */; };
+		759531FF2B2CACD600CD53CD /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759531FE2B2CACD600CD53CD /* DashBoardViewController.swift */; };
+		75AC3CD72B444AB300EF5FB0 /* ViewAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC3CD62B444AB300EF5FB0 /* ViewAllViewController.swift */; };
+		75AFDEF82B3C00E000B3D656 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AFDEF72B3C00E000B3D656 /* ImageCollectionViewCell.swift */; };
+		75AFDEFC2B3C23DA00B3D656 /* SelectImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AFDEFB2B3C23DA00B3D656 /* SelectImageViewController.swift */; };
+		75AFDF002B3C327000B3D656 /* SelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AFDEFF2B3C327000B3D656 /* SelectCollectionViewCell.swift */; };
+		75B0468E2B334200004611DE /* TestStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B0468D2B334200004611DE /* TestStoryBoard.storyboard */; };
+		75B718FB2B35B397005B4C17 /* SelectImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B718FA2B35B397005B4C17 /* SelectImage.storyboard */; };
+		75B718FF2B35C9FF005B4C17 /* IMagesSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B718FE2B35C9FF005B4C17 /* IMagesSelect.storyboard */; };
+		75BB000A2B5EC6340056CC64 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BB00092B5EC6340056CC64 /* CustomTabViewController.swift */; };
+		75D030FE2B429131002871BA /* TextViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D030FD2B429131002871BA /* TextViewCollectionViewCell.swift */; };
+		75D031002B42973C002871BA /* TextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D030FF2B42973C002871BA /* TextLabel.swift */; };
+		75D031032B42FAD1002871BA /* TryProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D031022B42FAD1002871BA /* TryProViewController.swift */; };
+		75D031052B43052B002871BA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D031042B43052B002871BA /* ProfileViewController.swift */; };
+		75D9CB062B616BF600C2829C /* ARDrawing+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9CB042B616BF600C2829C /* ARDrawing+CoreDataClass.swift */; };
+		75D9CB072B616BF600C2829C /* ARDrawing+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9CB052B616BF600C2829C /* ARDrawing+CoreDataProperties.swift */; };
+		75E201AA2B3F173400C4B98D /* ViewControllerVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E201A92B3F173400C4B98D /* ViewControllerVideo.swift */; };
+		75E39C052B3ACFFC00E03EBB /* ContinueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E39C042B3ACFFC00E03EBB /* ContinueViewController.swift */; };
+		75E39C072B3B115200E03EBB /* ButtonFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E39C062B3B115200E03EBB /* ButtonFont.swift */; };
+		75EC170A2B4EE54C0077BA4F /* CustomCamereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC17092B4EE54C0077BA4F /* CustomCamereViewController.swift */; };
+		75EF55A12B40917E00436782 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF55A02B40917E00436782 /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +76,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		750D2BD22B35CC4A00A88D81 /* IMagesSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMagesSelectViewController.swift; sourceTree = "<group>"; };
+		754134C12B5578620041645D /* FavoritedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedViewController.swift; sourceTree = "<group>"; };
+		754134C32B5592230041645D /* FavoritCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritCollectionViewCell.swift; sourceTree = "<group>"; };
+		7558988F2B568FD00093EB69 /* UserDefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultData.swift; sourceTree = "<group>"; };
+		755EC51C2B60001A00CB0AB3 /* FavoriteARDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteARDrawing.swift; sourceTree = "<group>"; };
+		755EC51F2B600CBE00CB0AB3 /* ARModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARModel.xcdatamodel; sourceTree = "<group>"; };
+		756314E22B34992D0099BF10 /* LessonUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LessonUI.storyboard; sourceTree = "<group>"; };
+		756DB13C2B3ABA8E0098627B /* LessonTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTabelViewController.swift; sourceTree = "<group>"; };
+		7571C8602B4571B1004579FB /* VIEWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIEWViewController.swift; sourceTree = "<group>"; };
+		7571C8622B459B6B004579FB /* ViewAllCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllCollectionViewCell.swift; sourceTree = "<group>"; };
+		757A31182B3D530000CAD70E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		757A311A2B3D53A100CAD70E /* ViewImageHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewImageHome.swift; sourceTree = "<group>"; };
+		757A311C2B3D542B00CAD70E /* MyCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell2.swift; sourceTree = "<group>"; };
+		757A311E2B3D557800CAD70E /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		757A31202B3D576A00CAD70E /* ImageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModels.swift; sourceTree = "<group>"; };
+		757A31222B3D57EC00CAD70E /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		757A31242B3DA65400CAD70E /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		757A31282B3DBD6900CAD70E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		758392022B3A07D10029B8BE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		759531C92B2CABB700CD53CD /* ARDrawingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDrawingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759531CC2B2CABB700CD53CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		759531CE2B2CABB700CD53CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +108,27 @@
 		759531E92B2CABB900CD53CD /* ARDrawingProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDrawingProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		759531ED2B2CABB900CD53CD /* ARDrawingProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDrawingProjectUITests.swift; sourceTree = "<group>"; };
 		759531EF2B2CABB900CD53CD /* ARDrawingProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDrawingProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		759531FC2B2CAC8100CD53CD /* DashBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
+		759531FE2B2CACD600CD53CD /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		75AC3CD62B444AB300EF5FB0 /* ViewAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllViewController.swift; sourceTree = "<group>"; };
+		75AFDEF72B3C00E000B3D656 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		75AFDEFB2B3C23DA00B3D656 /* SelectImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageViewController.swift; sourceTree = "<group>"; };
+		75AFDEFF2B3C327000B3D656 /* SelectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCollectionViewCell.swift; sourceTree = "<group>"; };
+		75B0468D2B334200004611DE /* TestStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestStoryBoard.storyboard; sourceTree = "<group>"; };
+		75B718FA2B35B397005B4C17 /* SelectImage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectImage.storyboard; sourceTree = "<group>"; };
+		75B718FE2B35C9FF005B4C17 /* IMagesSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IMagesSelect.storyboard; sourceTree = "<group>"; };
+		75BB00092B5EC6340056CC64 /* CustomTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
+		75D030FD2B429131002871BA /* TextViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		75D030FF2B42973C002871BA /* TextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabel.swift; sourceTree = "<group>"; };
+		75D031022B42FAD1002871BA /* TryProViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryProViewController.swift; sourceTree = "<group>"; };
+		75D031042B43052B002871BA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		75D9CB042B616BF600C2829C /* ARDrawing+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARDrawing+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75D9CB052B616BF600C2829C /* ARDrawing+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARDrawing+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		75E201A92B3F173400C4B98D /* ViewControllerVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVideo.swift; sourceTree = "<group>"; };
+		75E39C042B3ACFFC00E03EBB /* ContinueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueViewController.swift; sourceTree = "<group>"; };
+		75E39C062B3B115200E03EBB /* ButtonFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFont.swift; sourceTree = "<group>"; };
+		75EC17092B4EE54C0077BA4F /* CustomCamereViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCamereViewController.swift; sourceTree = "<group>"; };
+		75EF55A02B40917E00436782 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +181,28 @@
 			children = (
 				759531CC2B2CABB700CD53CD /* AppDelegate.swift */,
 				759531CE2B2CABB700CD53CD /* SceneDelegate.swift */,
-				759531D02B2CABB700CD53CD /* ViewController.swift */,
 				759531D22B2CABB700CD53CD /* Main.storyboard */,
+				755EC51E2B600CBE00CB0AB3 /* ARModel.xcdatamodeld */,
+				75D9CB042B616BF600C2829C /* ARDrawing+CoreDataClass.swift */,
+				75D9CB052B616BF600C2829C /* ARDrawing+CoreDataProperties.swift */,
+				755EC51C2B60001A00CB0AB3 /* FavoriteARDrawing.swift */,
+				75BB00092B5EC6340056CC64 /* CustomTabViewController.swift */,
+				754134C32B5592230041645D /* FavoritCollectionViewCell.swift */,
+				754134C12B5578620041645D /* FavoritedViewController.swift */,
+				7558988F2B568FD00093EB69 /* UserDefaultData.swift */,
+				75EC17092B4EE54C0077BA4F /* CustomCamereViewController.swift */,
+				7571C8622B459B6B004579FB /* ViewAllCollectionViewCell.swift */,
+				7571C8602B4571B1004579FB /* VIEWViewController.swift */,
+				75AC3CD62B444AB300EF5FB0 /* ViewAllViewController.swift */,
+				75D031062B43099D002871BA /* ProfileViewController */,
+				75D031072B4309B9002871BA /* TryProViewController */,
+				75D031012B42DFFF002871BA /* TextViewController */,
+				75E201A52B3F16F400C4B98D /* CameraViewController */,
+				75E201A62B3F170F00C4B98D /* ImageViewController */,
+				75E201AB2B3F188C00C4B98D /* SelectImageViewController */,
+				75E201A42B3F16BE00C4B98D /* DashBoardViewController */,
+				75AFDEFA2B3C154500B3D656 /* Classes */,
+				75AFDEF92B3C151200B3D656 /* StoryBoard */,
 				759531D52B2CABB900CD53CD /* Assets.xcassets */,
 				759531D72B2CABB900CD53CD /* LaunchScreen.storyboard */,
 				759531DA2B2CABB900CD53CD /* Info.plist */,
@@ -125,6 +225,98 @@
 				759531EF2B2CABB900CD53CD /* ARDrawingProjectUITestsLaunchTests.swift */,
 			);
 			path = ARDrawingProjectUITests;
+			sourceTree = "<group>";
+		};
+		75AFDEF92B3C151200B3D656 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				75B0468D2B334200004611DE /* TestStoryBoard.storyboard */,
+				759531FC2B2CAC8100CD53CD /* DashBoard.storyboard */,
+				75B718FE2B35C9FF005B4C17 /* IMagesSelect.storyboard */,
+				756314E22B34992D0099BF10 /* LessonUI.storyboard */,
+				75B718FA2B35B397005B4C17 /* SelectImage.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		75AFDEFA2B3C154500B3D656 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75E39C062B3B115200E03EBB /* ButtonFont.swift */,
+				756DB13C2B3ABA8E0098627B /* LessonTabelViewController.swift */,
+				758392022B3A07D10029B8BE /* CustomTableViewCell.swift */,
+				75E39C042B3ACFFC00E03EBB /* ContinueViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		75D031012B42DFFF002871BA /* TextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75EF55A02B40917E00436782 /* TextViewController.swift */,
+				75D030FF2B42973C002871BA /* TextLabel.swift */,
+				75D030FD2B429131002871BA /* TextViewCollectionViewCell.swift */,
+			);
+			path = TextViewController;
+			sourceTree = "<group>";
+		};
+		75D031062B43099D002871BA /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75D031042B43052B002871BA /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		75D031072B4309B9002871BA /* TryProViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75D031022B42FAD1002871BA /* TryProViewController.swift */,
+			);
+			path = TryProViewController;
+			sourceTree = "<group>";
+		};
+		75E201A42B3F16BE00C4B98D /* DashBoardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				759531D02B2CABB700CD53CD /* ViewController.swift */,
+				759531FE2B2CACD600CD53CD /* DashBoardViewController.swift */,
+			);
+			path = DashBoardViewController;
+			sourceTree = "<group>";
+		};
+		75E201A52B3F16F400C4B98D /* CameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				757A31242B3DA65400CAD70E /* VideoViewController.swift */,
+				75E201A92B3F173400C4B98D /* ViewControllerVideo.swift */,
+				757A31282B3DBD6900CAD70E /* CameraViewController.swift */,
+			);
+			path = CameraViewController;
+			sourceTree = "<group>";
+		};
+		75E201A62B3F170F00C4B98D /* ImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				757A31202B3D576A00CAD70E /* ImageModels.swift */,
+				757A311E2B3D557800CAD70E /* ImageViewController.swift */,
+				757A311A2B3D53A100CAD70E /* ViewImageHome.swift */,
+				757A31182B3D530000CAD70E /* MyCollectionViewCell.swift */,
+				757A311C2B3D542B00CAD70E /* MyCollectionViewCell2.swift */,
+				757A31222B3D57EC00CAD70E /* ImageData.swift */,
+			);
+			path = ImageViewController;
+			sourceTree = "<group>";
+		};
+		75E201AB2B3F188C00C4B98D /* SelectImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75AFDEFB2B3C23DA00B3D656 /* SelectImageViewController.swift */,
+				750D2BD22B35CC4A00A88D81 /* IMagesSelectViewController.swift */,
+				75AFDEF72B3C00E000B3D656 /* ImageCollectionViewCell.swift */,
+				75AFDEFF2B3C327000B3D656 /* SelectCollectionViewCell.swift */,
+			);
+			path = SelectImageViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +423,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B718FF2B35C9FF005B4C17 /* IMagesSelect.storyboard in Resources */,
 				759531D92B2CABB900CD53CD /* LaunchScreen.storyboard in Resources */,
 				759531D62B2CABB900CD53CD /* Assets.xcassets in Resources */,
+				75B0468E2B334200004611DE /* TestStoryBoard.storyboard in Resources */,
+				75B718FB2B35B397005B4C17 /* SelectImage.storyboard in Resources */,
+				756314E32B34992D0099BF10 /* LessonUI.storyboard in Resources */,
 				759531D42B2CABB700CD53CD /* Main.storyboard in Resources */,
+				759531FD2B2CAC8100CD53CD /* DashBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +455,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D031032B42FAD1002871BA /* TryProViewController.swift in Sources */,
+				75AC3CD72B444AB300EF5FB0 /* ViewAllViewController.swift in Sources */,
 				759531D12B2CABB700CD53CD /* ViewController.swift in Sources */,
+				75AFDEFC2B3C23DA00B3D656 /* SelectImageViewController.swift in Sources */,
+				755898902B568FD00093EB69 /* UserDefaultData.swift in Sources */,
+				756DB13D2B3ABA8E0098627B /* LessonTabelViewController.swift in Sources */,
+				750D2BD32B35CC4A00A88D81 /* IMagesSelectViewController.swift in Sources */,
+				75E39C052B3ACFFC00E03EBB /* ContinueViewController.swift in Sources */,
+				7571C8632B459B6B004579FB /* ViewAllCollectionViewCell.swift in Sources */,
+				755EC51D2B60001A00CB0AB3 /* FavoriteARDrawing.swift in Sources */,
+				754134C22B5578620041645D /* FavoritedViewController.swift in Sources */,
+				757A31252B3DA65400CAD70E /* VideoViewController.swift in Sources */,
+				757A31232B3D57EC00CAD70E /* ImageData.swift in Sources */,
+				7571C8612B4571B1004579FB /* VIEWViewController.swift in Sources */,
+				757A311D2B3D542B00CAD70E /* MyCollectionViewCell2.swift in Sources */,
+				75D9CB072B616BF600C2829C /* ARDrawing+CoreDataProperties.swift in Sources */,
+				75E201AA2B3F173400C4B98D /* ViewControllerVideo.swift in Sources */,
+				75D031052B43052B002871BA /* ProfileViewController.swift in Sources */,
+				75D9CB062B616BF600C2829C /* ARDrawing+CoreDataClass.swift in Sources */,
+				757A311F2B3D557800CAD70E /* ImageViewController.swift in Sources */,
+				758392032B3A07D10029B8BE /* CustomTableViewCell.swift in Sources */,
+				75EF55A12B40917E00436782 /* TextViewController.swift in Sources */,
+				755EC5202B600CBE00CB0AB3 /* ARModel.xcdatamodeld in Sources */,
+				757A31292B3DBD6900CAD70E /* CameraViewController.swift in Sources */,
+				75D030FE2B429131002871BA /* TextViewCollectionViewCell.swift in Sources */,
+				75E39C072B3B115200E03EBB /* ButtonFont.swift in Sources */,
+				75D031002B42973C002871BA /* TextLabel.swift in Sources */,
+				75AFDEF82B3C00E000B3D656 /* ImageCollectionViewCell.swift in Sources */,
+				75AFDF002B3C327000B3D656 /* SelectCollectionViewCell.swift in Sources */,
+				757A311B2B3D53A100CAD70E /* ViewImageHome.swift in Sources */,
 				759531CD2B2CABB700CD53CD /* AppDelegate.swift in Sources */,
 				759531CF2B2CABB700CD53CD /* SceneDelegate.swift in Sources */,
+				757A31212B3D576A00CAD70E /* ImageModels.swift in Sources */,
+				75BB000A2B5EC6340056CC64 /* CustomTabViewController.swift in Sources */,
+				754134C42B5592230041645D /* FavoritCollectionViewCell.swift in Sources */,
+				757A31192B3D530000CAD70E /* MyCollectionViewCell.swift in Sources */,
+				75EC170A2B4EE54C0077BA4F /* CustomCamereViewController.swift in Sources */,
+				759531FF2B2CACD600CD53CD /* DashBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,21 +673,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QWYZYC5KB7;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = MFCL5NRH9V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARDrawingProject/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take a picture ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mraza.ARDrawingProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gameview.ARDrawing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,21 +704,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QWYZYC5KB7;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = MFCL5NRH9V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARDrawingProject/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take a picture ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mraza.ARDrawingProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gameview.ARDrawing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -607,6 +845,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		755EC51E2B600CBE00CB0AB3 /* ARModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				755EC51F2B600CBE00CB0AB3 /* ARModel.xcdatamodel */,
+			);
+			currentVersion = 755EC51F2B600CBE00CB0AB3 /* ARModel.xcdatamodel */;
+			path = ARModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 759531C12B2CABB700CD53CD /* Project object */;
 }
